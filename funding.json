@@ -7,23 +7,15 @@
         "email": "rajat@dataoorts.com",
         "phone": "+91 7985000709",
         "description": "I am a graduate researcher addressing the HPC compute shortage, aiming to make our nation the first with AGI capabilities.",
-        "webpageUrl": {
-            "url": "https://dataoorts.com",
-            "wellKnown": "Dataoorts GPU Cloud"
-        }
+        "webpageUrl": "https://dataoorts.com"
     },
     "projects": [
         {
             "guid": "oorts",
             "name": "DDRA",
             "description": "DDRA is an advanced GPU virtualization technology that operates on a large GPU cluster to dynamically and efficiently support thousands of AI workloads, all while maintaining cost-effectiveness.",
-            "webpageUrl": {
-                "url": "https://cloud.dataoorts.com"
-            },
-            "repositoryUrl": {
-                "url": "https://dataoorts.com",
-                "wellKnown": "https://cloud.dataoorts.com"
-            },
+            "webpageUrl": "https://cloud.dataoorts.com",
+            "repositoryUrl": "https://cloud.dataoorts.com",
             "licenses": ["MIT"],
             "tags": ["Cloud GPU", "Nvidia", "AI", "Deep Learning"]
         }
