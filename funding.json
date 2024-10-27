@@ -12,35 +12,37 @@
             "wellKnown": "Dataoorts GPU Cloud"
         }
     },
-    "projects": [{
-        "guid": "oorts",
-        "name": "DDRA",
-        "description": "DDRA is advanced GPU Virtualization Technology which work on large GPU Cluster and cater needs for thousands AI worksource dynamically and effectively while maintaing the overall cost.",
-        "webpageUrl": {
-            "url": "https://cloud.dataoorts.com"
-        },
-        "repositoryUrl": {
-            "url": "https://dataoorts.com",
-            "wellKnown": "https://cloud.dataoorts.com"
-        },
-        "licenses": ["MIT"],
-        "tags": ["Cloud GPU", "Nvidia", "AI", "DeepLearning"]
-    }],
+    "projects": [
+        {
+            "guid": "oorts",
+            "name": "DDRA",
+            "description": "DDRA is an advanced GPU virtualization technology that operates on a large GPU cluster to dynamically and efficiently support thousands of AI workloads, all while maintaining cost-effectiveness.",
+            "webpageUrl": {
+                "url": "https://cloud.dataoorts.com"
+            },
+            "repositoryUrl": {
+                "url": "https://dataoorts.com",
+                "wellKnown": "https://cloud.dataoorts.com"
+            },
+            "licenses": ["MIT"],
+            "tags": ["Cloud GPU", "Nvidia", "AI", "Deep Learning"]
+        }
+    ],
     "funding": {
         "channels": [
             {
                 "guid": "mybank",
                 "type": "bank",
                 "address": "SBI",
-                "description": "Will accept direct bank transfers. Please e-mail me for details."
+                "description": "Will accept direct bank transfers. Please email me for details."
             }
         ],
         "plans": [
             {
                 "guid": "GPUs",
                 "status": "active",
-                "name": "GPUs Compute Support",
-                "description": "This will cover portion of the monthly GPU running cost.",
+                "name": "GPU Compute Support",
+                "description": "This plan will cover a portion of the monthly GPU operational costs.",
                 "amount": 1500,
                 "currency": "USD",
                 "frequency": "monthly",
@@ -49,8 +51,8 @@
             {
                 "guid": "developer-time",
                 "status": "active",
-                "name": "Developer compensation",
-                "description": "This will cover the cost of one developer working part-time/Freelance on the projects.",
+                "name": "Developer Compensation",
+                "description": "This plan will cover the cost of a part-time or freelance developer working on the projects.",
                 "amount": 800,
                 "currency": "USD",
                 "frequency": "monthly",
@@ -59,16 +61,24 @@
             {
                 "guid": "angel-plan",
                 "status": "active",
-                "name": "Goodwill plan",
-                "description": "Pay anything you wish to show your goodwill for the project.",
-                "amount": "Anything For Supporting Us",
+                "name": "Goodwill Plan",
+                "description": "Contribute any amount you wish to support the project.",
+                "amount": "Any amount for supporting us",
                 "currency": "USD",
                 "frequency": "one-time",
                 "channels": ["mybank"]
             }
         ],
         "history": [
-            {"year": 2024, "month": "july", "income": 3000, "expenses": 2000, "taxes": 250, "currency": "USD", "description": "We've been continually growing since our launch."}
+            {
+                "year": 2024,
+                "month": "July",
+                "income": 3000,
+                "expenses": 2000,
+                "taxes": 250,
+                "currency": "USD",
+                "description": "Continual growth since our launch."
+            }
         ]
     }
 }
