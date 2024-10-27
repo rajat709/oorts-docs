@@ -1,0 +1,74 @@
+{
+    "version": "v12.4",
+    "entity": {
+        "type": "individual",
+        "role": "owner",
+        "name": "Dataoorts",
+        "email": "rajat@dataoorts.com",
+        "phone": "+91 7985000709",
+        "description": "I am a graduate researcher addressing the HPC compute shortage, aiming to make our nation the first with AGI capabilities.",
+        "webpageUrl": {
+            "url": "https://dataoorts.com",
+            "wellKnown": "Dataoorts GPU Cloud"
+        }
+    },
+    "projects": [{
+        "guid": "oorts",
+        "name": "DDRA",
+        "description": "DDRA is advanced GPU Virtualization Technology which work on large GPU Cluster and cater needs for thousands AI worksource dynamically and effectively while maintaing the overall cost.",
+        "webpageUrl": {
+            "url": "https://cloud.dataoorts.com"
+        },
+        "repositoryUrl": {
+            "url": "https://dataoorts.com",
+            "wellKnown": "https://cloud.dataoorts.com"
+        },
+        "licenses": ["MIT"],
+        "tags": ["Cloud GPU", "Nvidia", "AI", "DeepLearning"]
+    }],
+    "funding": {
+        "channels": [
+            {
+                "guid": "mybank",
+                "type": "bank",
+                "address": "SBI",
+                "description": "Will accept direct bank transfers. Please e-mail me for details."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "GPUs",
+                "status": "active",
+                "name": "GPUs Compute Support",
+                "description": "This will cover portion of the monthly GPU running cost.",
+                "amount": 1500,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["mybank"]
+            },
+            {
+                "guid": "developer-time",
+                "status": "active",
+                "name": "Developer compensation",
+                "description": "This will cover the cost of one developer working part-time/Freelance on the projects.",
+                "amount": 800,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["mybank"]
+            },
+            {
+                "guid": "angel-plan",
+                "status": "active",
+                "name": "Goodwill plan",
+                "description": "Pay anything you wish to show your goodwill for the project.",
+                "amount": "Anything For Supporting Us",
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["mybank"]
+            }
+        ],
+        "history": [
+            {"year": 2024, "month": "july", "income": 3000, "expenses": 2000, "taxes": 250, "currency": "USD", "description": "We've been continually growing since our launch."}
+        ]
+    }
+}
