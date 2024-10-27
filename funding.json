@@ -63,7 +63,7 @@
                 "status": "active",
                 "name": "Goodwill Plan",
                 "description": "Contribute any amount you wish to support the project.",
-                "amount": "Any amount for supporting us",
+                "amount": null,
                 "currency": "USD",
                 "frequency": "one-time",
                 "channels": ["mybank"]
