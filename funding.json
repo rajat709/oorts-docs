@@ -46,7 +46,7 @@
                 "description": "This plan will cover a portion of the monthly GPU operational costs.",
                 "amount": 1500,
                 "currency": "USD",
-                "frequency": "monthly",
+                "frequency": "one-time",
                 "channels": ["mybank"]
             },
             {
@@ -56,7 +56,7 @@
                 "description": "This plan will cover the cost of a part-time or freelance developer working on the projects.",
                 "amount": 800,
                 "currency": "USD",
-                "frequency": "monthly",
+                "frequency": "one-time",
                 "channels": ["mybank"]
             },
             {
