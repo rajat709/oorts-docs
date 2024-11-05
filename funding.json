@@ -14,7 +14,7 @@
     },
     "projects": [
         {
-            "guid": "1-oorts",
+            "guid": "oorts-1",
             "name": "DDRA",
             "description": "DDRA is an advanced GPU virtualization technology that operates on a large GPU cluster to dynamically and efficiently support thousands of AI workloads, all while maintaining cost-effectiveness.",
             "webpageUrl": {
@@ -32,7 +32,7 @@
     "funding": {
         "channels": [
             {
-                "guid": "mybank",
+                "guid": "mybank-6",
                 "type": "bank",
                 "address": "SBI",
                 "description": "Will accept direct bank transfers. Please email me for details."
@@ -40,7 +40,7 @@
         ],
         "plans": [
             {
-                "guid": "2-gpus",
+                "guid": "gpus-2",
                 "status": "active",
                 "name": "GPU Compute Support",
                 "description": "This plan will cover a portion of the monthly GPU operational costs.",
@@ -50,7 +50,7 @@
                 "channels": ["mybank"]
             },
             {
-                "guid": "3-developertime",
+                "guid": "developertime-3",
                 "status": "active",
                 "name": "Developer Compensation",
                 "description": "This plan will cover the cost of a part-time or freelance developer working on the projects.",
@@ -60,7 +60,7 @@
                 "channels": ["mybank"]
             },
             {
-                "guid": "4-angelplan",
+                "guid": "angelplan-4",
                 "status": "active",
                 "name": "Goodwill Plan",
                 "description": "Contribute any amount you wish to support the project.",
