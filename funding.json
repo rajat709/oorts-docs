@@ -18,11 +18,13 @@
             "name": "DDRA",
             "description": "DDRA is an advanced GPU virtualization technology that operates on a large GPU cluster to dynamically and efficiently support thousands of AI workloads, all while maintaining cost-effectiveness.",
             "webpageUrl": {
+                "url": "https://cloud.dataoorts.com"
+            },
+            "repositoryUrl": {
                 "url": "https://cloud.dataoorts.com",
                 "wellKnown": ""
             },
-            "repositoryUrl": "https://cloud.dataoorts.com",
-            "licenses": ["MIT"],
+            "licenses": ["spdx:MIT"],
             "tags": ["Cloud GPU", "Nvidia", "AI", "Deep Learning"]
         }
     ],
@@ -61,7 +63,7 @@
                 "status": "active",
                 "name": "Goodwill Plan",
                 "description": "Contribute any amount you wish to support the project.",
-                "amount": null,
+                "amount": 0,
                 "currency": "USD",
                 "frequency": "one-time",
                 "channels": ["mybank"]
@@ -70,7 +72,6 @@
         "history": [
             {
                 "year": 2024,
-                "month": "July",
                 "income": 3000,
                 "expenses": 2000,
                 "taxes": 250,
