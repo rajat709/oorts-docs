@@ -40,7 +40,7 @@
         ],
         "plans": [
             {
-                "guid": "GPUs",
+                "guid": "gpus",
                 "status": "active",
                 "name": "GPU Compute Support",
                 "description": "This plan will cover a portion of the monthly GPU operational costs.",
@@ -50,7 +50,7 @@
                 "channels": ["mybank"]
             },
             {
-                "guid": "developer-time",
+                "guid": "developertime",
                 "status": "active",
                 "name": "Developer Compensation",
                 "description": "This plan will cover the cost of a part-time or freelance developer working on the projects.",
@@ -60,7 +60,7 @@
                 "channels": ["mybank"]
             },
             {
-                "guid": "angel-plan",
+                "guid": "angelplan",
                 "status": "active",
                 "name": "Goodwill Plan",
                 "description": "Contribute any amount you wish to support the project.",
