@@ -26,7 +26,7 @@
                 "wellKnown": "https://github.com/rajat709/oorts-docs/blob/main/.well-known/funding-manifest-urls"
             },
             "licenses": ["spdx:MIT"],
-            "tags": ["Cloud GPU", "Nvidia", "AI", "Deep Learning"]
+            "tags": ["cloudgpu", "gpus", "ai", "deeplearning"]
         }
     ],
     "funding": {
