@@ -9,7 +9,7 @@
         "description": "I am a graduate researcher addressing the HPC compute shortage, aiming to make our nation the first with AGI capabilities.",
         "webpageUrl": {
             "url": "https://dataoorts.com",
-            "wellKnown": "https://dataoorts.com/.well-known/funding-manifest-urls"
+            "wellKnown": "https://dataoorts.com/oorts/.well-known/funding-manifest-urls"
         }
     },
     "projects": [
@@ -18,11 +18,12 @@
             "name": "DDRA",
             "description": "DDRA is an advanced GPU virtualization technology that operates on a large GPU cluster to dynamically and efficiently support thousands of AI workloads, all while maintaining cost-effectiveness.",
             "webpageUrl": {
-                "url": "https://cloud.dataoorts.com"
+                "url": "https://cloud.dataoorts.com",
+                "wellKnown": "https://dataoorts.com/oorts/.well-known/funding-manifest-urls"
             },
             "repositoryUrl": {
                 "url": "https://cloud.dataoorts.com",
-                "wellKnown": "https://cloud.dataoorts.com/.well-known/funding-manifest-urls"
+                "wellKnown": "https://dataoorts.com/oorts/.well-known/funding-manifest-urls"
             },
             "licenses": ["spdx:MIT"],
             "tags": ["Cloud GPU", "Nvidia", "AI", "Deep Learning"]
